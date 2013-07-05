@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    .row
+    .span12
+        h1 Enter HTML Code
+        form(method='post',action='/')
+            p
+                textarea#htmlText(name='htmlText')
+            a#shortenBtn.btn(href='#') Shorten
